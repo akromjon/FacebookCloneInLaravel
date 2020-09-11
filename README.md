@@ -4,7 +4,7 @@
 <h2>Tables <small style="font-style: italic;">social/database/migrations</small></h2>
 <ul>
     <li>Users
-        <ol>
+        <ul>
             <li>name</li>
             <li>username</li>
             <li>email</li>
@@ -12,10 +12,10 @@
             <li>timeline image</li>
             <li>password</li>
             <li>profile protection</li>
-        </ol>
+        </ul>
     </li>
     <li>Profiles
-        <ol>
+        <ul>
             <li>day of birth</li>
             <li>month of birth</li>
             <li>year of birth</li>
@@ -24,69 +24,70 @@
             <li>information</li>
             <li>user</li>
             <li>gender</li>
-        </ol>
+        </ul>
     </li>
     <li>User Pictures
-        <ol>
+        <ul>
             <li>image</li>
-            <li>user</li>            
-        </ol>
+            <li>user</li>
+        </ul>
     </li>
-    
+</ul>
+<ul>
     <li>Messages
-        <ol>
+        <ul>
             <li>User</li>
-            <li>Friend</li> 
-            <li>Message</li>                      
-        </ol>
+            <li>Friend</li>
+            <li>Message</li>
+        </ul>
     </li>
     <li>Post
-        <ol>
+        <ul>
             <li>slug</li>
-            <li>content</li> 
-            <li>image</li>  
-            <li>user</li>                      
-        </ol>
+            <li>content</li>
+            <li>image</li>
+            <li>user</li>
+        </ul>
     </li>
     <li>Likes
-        <ol>
-            <li>post</li>  
-            <li>user</li>  
-            <li>like</li> 
-        </ol>
+        <ul>
+            <li>post</li>
+            <li>user</li>
+            <li>like</li>
+        </ul>
     </li>
     <li>Dislikes
-        <ol>
-            <li>post</li>  
-            <li>user</li>  
-            <li>dislike</li> 
-        </ol>
+        <ul>
+            <li>post</li>
+            <li>user</li>
+            <li>dislike</li>
+        </ul>
     </li>
     <li>Comments
-        <ol>
-            <li>post</li>  
-            <li>user</li>  
-            <li>content</li> 
-        </ol>
+        <ul>
+            <li>post</li>
+            <li>user</li>
+            <li>content</li>
+        </ul>
     </li>
     <li>Friend Requests
-        <ol>
-            <li>user</li>  
-            <li>friend</li>             
-        </ol>
+        <ul>
+            <li>user</li>
+            <li>friend</li>
+        </ul>
     </li>
     <li>Friends
-        <ol>
-            <li>user</li>  
-            <li>friend</li> 
-            <li>confirm</li>            
-        </ol>
-    </li>    
+        <ul>
+            <li>user</li>
+            <li>friend</li>
+            <li>confirm</li>
+        </ul>
+    </li>
 </ul>
 <h2>Models <small style="font-style: italic;">social/app/Models</small></h2>
 <ul>
     <li>comment/Comment.php
-        <ul> 
+        <ul>
             <li>uses Comments Table</li>
             <li>Comment belongs to Post Model</li>
             <li>Comment belongs to User Model</li>
