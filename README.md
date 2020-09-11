@@ -84,7 +84,13 @@
         </ul>
     </li>
 </ul>
-protected $table="comments";
+
+<h2>Models <small style="font-style: italic;">social/app/Models</small></h2>
+<ul>
+    <li>comment/Comment.php
+        <code>
+            <?php
+            protected $table="comments";
     protected $fillable=[
         'content',
         'user_id',
@@ -97,5 +103,7 @@ protected $table="comments";
     public function user()
     {
         return $this->belongsTo('App\User');
-    }
-
+    }?>
+        </code>
+    </li>
+</ul>
