@@ -84,14 +84,18 @@
         </ul>
     </li>
 </ul>
-<h2>Models <small style="font-style: italic;">social/app/Models</small></h2>
-<ul>
-    <li>comment/Comment.php
-        <ul>
-            <li>uses Comments Table</li>
-            <li>Comment belongs to Post Model</li>
-            <li>Comment belongs to User Model</li>
-        </ul>
-    </li>
-</ul>
+protected $table="comments";
+    protected $fillable=[
+        'content',
+        'user_id',
+        'post_id',
+    ];
+    public function post()
+    {
+        return $this->belongsTo('App\Models\feed\Post');
+    }
+    public function user()
+    {
+        return $this->belongsTo('App\User');
+    }
 
