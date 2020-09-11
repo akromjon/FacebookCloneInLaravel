@@ -1,92 +1,88 @@
 # Facebook Clone
-
 <h1 style="text-align: center;">Twitter Clone Documentation</h1>
-<h2>Tables <small style="font-style: italic;">social/database/migrations</small></h2>
+<h2>Models <small style="font-style: italic;">social\app\Models</small></h2>
+<ul>    
+    <li>comment\Comment.php</li>
+    <li>dislike\Dislike.php</li>
+    <li>feed\Post.php</li>
+    <li>friend\Friend.php</li>
+    <li>like\Like.php</li>
+    <li>message\Message.php</li>
+    <li>picture\Picture.php</li>
+    <li>request\RequestFriend.php</li>
+</ul>
+<h2>Controllers <small style="font-style: italic;">social\app\Http\controllers\Models</small></h2>
+<ul>    
+    <li>Auth</li>
+    <li>comment</li>
+    <li>dislike</li>
+    <li>feed</li>
+    <li>friend</li>
+    <li>like</li>
+    <li>message</li>
+    <li>picture</li>
+    <li>request</li>
+    <li>setting</li>
+    <li>user</li>
+</ul>
+<h2>Tables <small style="font-style: italic;">social\database\migrations</small></h2>
 <ul>
     <li>Users
-        <ul>
-            <li>name</li>
-            <li>username</li>
-            <li>email</li>
-            <li>image</li>
-            <li>timeline image</li>
-            <li>password</li>
-            <li>profile protection</li>
-        </ul>
+       
     </li>
     <li>Profiles
-        <ul>
-            <li>day of birth</li>
-            <li>month of birth</li>
-            <li>year of birth</li>
-            <li>city</li>
-            <li>country</li>
-            <li>information</li>
-            <li>user</li>
-            <li>gender</li>
-        </ul>
+       
     </li>
     <li>User Pictures
-        <ul>
-            <li>image</li>
-            <li>user</li>
-        </ul>
+        
     </li>
-</ul>
-<ul>
+
     <li>Messages
-        <ul>
-            <li>User</li>
-            <li>Friend</li>
-            <li>Message</li>
-        </ul>
+       
     </li>
     <li>Post
-        <ul>
-            <li>slug</li>
-            <li>content</li>
-            <li>image</li>
-            <li>user</li>
-        </ul>
+        
     </li>
     <li>Likes
-        <ul>
-            <li>post</li>
-            <li>user</li>
-            <li>like</li>
-        </ul>
+        
     </li>
     <li>Dislikes
-        <ul>
-            <li>post</li>
-            <li>user</li>
-            <li>dislike</li>
-        </ul>
+        
     </li>
     <li>Comments
-        <ul>
-            <li>post</li>
-            <li>user</li>
-            <li>content</li>
-        </ul>
+       
     </li>
     <li>Friend Requests
-        <ul>
-            <li>user</li>
-            <li>friend</li>
-        </ul>
+        
     </li>
     <li>Friends
-        <ul>
-            <li>user</li>
-            <li>friend</li>
-            <li>confirm</li>
-        </ul>
+       
     </li>
 </ul>
 
-<h2>Models <small style="font-style: italic;">social/app/Models</small></h2>
-<ul>
-   All Models in App\Models
-    <li>comment\Comment.php</li>
-</ul>
+
+    <img src="https://github.com/akromjon/FacebookCloneInLaravel/blob/master/clone1.png">
+    <img src="https://github.com/akromjon/FacebookCloneInLaravel/blob/master/clone2.png">
+    <img src="https://github.com/akromjon/FacebookCloneInLaravel/blob/master/clone3.png">
+    <img src="https://github.com/akromjon/FacebookCloneInLaravel/blob/master/clone4.png">
+    <img src="https://github.com/akromjon/FacebookCloneInLaravel/blob/master/clone5.png">
+    <img src="https://github.com/akromjon/FacebookCloneInLaravel/blob/master/clone6.png">
+    <img src="https://github.com/akromjon/FacebookCloneInLaravel/blob/master/clone7.png">
+    <img src="https://github.com/akromjon/FacebookCloneInLaravel/blob/master/clone8.png">
+    <img src="https://github.com/akromjon/FacebookCloneInLaravel/blob/master/clone9.png">
+    <img src="https://github.com/akromjon/FacebookCloneInLaravel/blob/master/clone10.png">
+    <img src="https://github.com/akromjon/FacebookCloneInLaravel/blob/master/clone11.png">
+    <img src="https://github.com/akromjon/FacebookCloneInLaravel/blob/master/clone12.png">
+    <img src="https://github.com/akromjon/FacebookCloneInLaravel/blob/master/clone13.png">
+    <img src="https://github.com/akromjon/FacebookCloneInLaravel/blob/master/clone14.png">
+    <img src="https://github.com/akromjon/FacebookCloneInLaravel/blob/master/clone15.png">
+    <img src="https://github.com/akromjon/FacebookCloneInLaravel/blob/master/clone16.png">
+    <img src="https://github.com/akromjon/FacebookCloneInLaravel/blob/master/clone17.png">
+    <img src="https://github.com/akromjon/FacebookCloneInLaravel/blob/master/clone18.png">
+    <img src="https://github.com/akromjon/FacebookCloneInLaravel/blob/master/clone19.png">
+    <img src="https://github.com/akromjon/FacebookCloneInLaravel/blob/master/clone20.png">
+    <img src="https://github.com/akromjon/FacebookCloneInLaravel/blob/master/clone21.png">
+    <img src="https://github.com/akromjon/FacebookCloneInLaravel/blob/master/clone22.png">
+    <img src="https://github.com/akromjon/FacebookCloneInLaravel/blob/master/clone23.png">
+
+
