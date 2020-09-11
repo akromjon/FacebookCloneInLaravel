@@ -1,0 +1,12 @@
+User
+    Regisration
+        Migrations
+            users
+                name
+                username:unique
+                email:unique
+                image
+                gender
+                DateOfBirth
+                
+
