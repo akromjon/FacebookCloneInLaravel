@@ -87,23 +87,6 @@
 
 <h2>Models <small style="font-style: italic;">social/app/Models</small></h2>
 <ul>
-    <li>comment/Comment.php
-        <code>
-            <?php
-            protected $table="comments";
-    protected $fillable=[
-        'content',
-        'user_id',
-        'post_id',
-    ];
-    public function post()
-    {
-        return $this->belongsTo('App\Models\feed\Post');
-    }
-    public function user()
-    {
-        return $this->belongsTo('App\User');
-    }?>
-        </code>
-    </li>
+   All Models in App\Models
+    <li>comment\Comment.php</li>
 </ul>
