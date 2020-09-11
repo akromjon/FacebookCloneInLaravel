@@ -28,40 +28,52 @@
 <h2>Tables <small style="font-style: italic;">social\database\migrations</small></h2>
 <ul>
     <li>Users
-       
+</ul>
+  <ul>       
     </li>
     <li>Profiles
-       
+</ul>
+  <ul>       
     </li>
     <li>User Pictures
-        
+</ul>
+  <ul>        
     </li>
-
+</ul>
+  <ul>
     <li>Messages
-       
+  </ul>
+  <ul>     
     </li>
     <li>Post
-        
+  </ul>
+  <ul>
+ </ul>
+  <ul>   
     </li>
     <li>Likes
-        
+  </ul>
+  <ul>      
     </li>
     <li>Dislikes
-        
+</ul>
+  <ul>        
     </li>
     <li>Comments
-       
+ </ul>
+  <ul>      
     </li>
     <li>Friend Requests
-        
+ </ul>
+  <ul>       
     </li>
     <li>Friends
-       
+</ul>
+  <ul>       
     </li>
 </ul>
 
-
-    <img src="https://github.com/akromjon/FacebookCloneInLaravel/blob/master/clone1.png">
+<img src="https://github.com/akromjon/FacebookCloneInLaravel/blob/master/clone1.png">
     <img src="https://github.com/akromjon/FacebookCloneInLaravel/blob/master/clone2.png">
     <img src="https://github.com/akromjon/FacebookCloneInLaravel/blob/master/clone3.png">
     <img src="https://github.com/akromjon/FacebookCloneInLaravel/blob/master/clone4.png">
