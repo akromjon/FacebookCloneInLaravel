@@ -1,5 +1,4 @@
 # Facebook Clone
-<h1 style="text-align: center;">Twitter Clone Documentation</h1>
 <h2>Models <small style="font-style: italic;">social\app\Models</small></h2>
 <ul>    
     <li>comment\Comment.php</li>
